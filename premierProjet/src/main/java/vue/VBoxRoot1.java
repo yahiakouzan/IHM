@@ -13,7 +13,7 @@ import modele.DateCalendrier;
 
 import static modele.ConstantesCalendrier.JOURS_SEMAINE;
 import static modele.ConstantesCalendrier.MOIS;
-
+/*
 public class VBoxRoot1 {
     Date today = new Date();
     StackPane stackPaneMois = new StackPane();
@@ -49,5 +49,5 @@ public class VBoxRoot1 {
         stackPaneMois.getChildren().add(tilePane);
     }
 }
-
+*/
 
