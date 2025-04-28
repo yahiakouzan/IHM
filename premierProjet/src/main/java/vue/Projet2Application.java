@@ -1,10 +1,8 @@
 package vue;
-
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-
 import java.io.File;
 
 public class Projet2Application extends Application {
@@ -23,3 +21,5 @@ public class Projet2Application extends Application {
         Application.launch(args);
     }
 }
+
+
