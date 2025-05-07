@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/css/cssCalendrier.css;U:/Java/IntelliJ_projets_IHM/JavaFX/src/main/java/com/example/javafx/HelloApplication.java;U:/Java/IntelliJ_projets_IHM/JavaFX/src/main/java/com/example/javafx/HelloController.java;U:/Java/IntelliJ_projets_IHM/JavaFX/src/main/java/modele/CalendrierDuMois.java;U:/Java/IntelliJ_projets_IHM/JavaFX/src/main/java/modele/ClientCalendrierDuMois.java;U:/Java/IntelliJ_projets_IHM/JavaFX/src/main/java/modele/ConstantesCalendrier.java;U:/Java/IntelliJ_projets_IHM/JavaFX/src/main/java/modele/Date.java;U:/Java/IntelliJ_projets_IHM/JavaFX/src/main/java/modele/DateCalendrier.java;U:/Java/IntelliJ_projets_IHM/JavaFX/src/main/java/vue/Application2.java;U:/Java/IntelliJ_projets_IHM/JavaFX/src/main/java/vue/GridPaneFormulaireReservation.java;U:/Java/IntelliJ_projets_IHM/JavaFX/src/main/java/vue/HBoxRoot.java;U:/Java/IntelliJ_projets_IHM/JavaFX/src/main/java/vue/VBoxRoot.java;U:/Java/IntelliJ_projets_IHM/JavaFX/src/main/java/module-info.java" />
+  </component>
+</project>
