@@ -7,7 +7,7 @@ import modele.PlanningCollections;
 public class HBoxRoot extends HBox  {
     private static PlanningCollections planning;
     private static VBoxCalendrier vBox;
-    private static GridPane grid;
+    private static GridPaneFormulaireReservation grid;
     public HBoxRoot() {
 
         VBoxCalendrier vboxCalendrier = new VBoxCalendrier();
@@ -16,6 +16,14 @@ public class HBoxRoot extends HBox  {
         this.getChildren().add(formulaire);
 
 
+    }
+
+    public static PlanningCollections getPlanning(){
+        return planning;
+    }
+
+    public static GridPaneFormulaireReservation getReservationPane(){
+        return grid;
     }
 
 

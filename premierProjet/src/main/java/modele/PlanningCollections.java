@@ -5,8 +5,8 @@ import java.util.Iterator;
 import java.util.TreeSet;
 
 public class PlanningCollections {
-    private ArrayList<Reservation> chArrayList;
-    private TreeSet<Reservation> chTreeSet;
+    private static ArrayList<Reservation> chArrayList;
+    private static TreeSet<Reservation> chTreeSet;
 
     public PlanningCollections() {
         chArrayList = new ArrayList<>();
@@ -39,6 +39,7 @@ public class PlanningCollections {
 
         chArrayList.add(parRes);
     }
+
 
     public TreeSet<Reservation> getReservations(Date parDate) {
         TreeSet treeRes = new TreeSet<>() ;
