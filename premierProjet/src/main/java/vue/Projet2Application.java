@@ -7,7 +7,7 @@ import java.io.File;
 
 public class Projet2Application extends Application {
     public void start(Stage stage) {
-        VBox root = new VBoxRoot();
+        HBoxRoot root = new HBoxRoot();
         Scene scene = new Scene(root, 400, 380);
         File[] fichiersCss = new File("css").listFiles();
         for (File fichier : fichiersCss) {

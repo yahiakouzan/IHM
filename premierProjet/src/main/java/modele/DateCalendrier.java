@@ -4,7 +4,7 @@ package modele;
 
 import java.util.Calendar;
 
-public class DateCalendrier extends Date implements ConstantesCalendrier {
+public class DateCalendrier extends Date implements ConstantesCalendrier, Comparable <Date>  {
 
     private int jourSemaine;
     private int weekOfYear ;
@@ -12,7 +12,7 @@ public class DateCalendrier extends Date implements ConstantesCalendrier {
     /** retourne la date d'aujourd'hui
      *
      */
-    public DateCalendrier ()   {
+    public DateCalendrier()   {
         // GregorianCalendar dateAuj = new GregorianCalendar ();
         Calendar dateAuj = Calendar.getInstance();
         chAnnee = dateAuj.get (Calendar.YEAR);
@@ -25,7 +25,7 @@ public class DateCalendrier extends Date implements ConstantesCalendrier {
         weekOfYear = dateAuj.get (Calendar.WEEK_OF_YEAR);
     }
 
-    public DateCalendrier (int parJour, int parMois, int parAnnee)   {
+    public DateCalendrier(int parJour, int parMois, int parAnnee)   {
         super(parJour, parMois, parAnnee);
         Calendar date = Calendar.getInstance();
         date.set(chAnnee,chMois-1,chJour);
@@ -37,7 +37,7 @@ public class DateCalendrier extends Date implements ConstantesCalendrier {
     }
 
     public String toString () {
-        return  JOURS_SEMAINE [jourSemaine -1] + " " + chJour + " " + MOIS [chMois-1];
+        return  JOUR_DE_LA_SEMAINE [jourSemaine -1] + " " + chJour + " " + MOIS[chMois-1];
     }
 
 
@@ -65,5 +65,8 @@ public class DateCalendrier extends Date implements ConstantesCalendrier {
         return new DateCalendrier (dateVeille.chJour,dateVeille.chMois,dateVeille.chAnnee);
     }
 
-
+    //@Override
+    //public int compareTo(Date o) {
+    //	return 0;
+    //}
 }

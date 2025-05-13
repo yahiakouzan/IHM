@@ -1,24 +1,23 @@
 package vue;
 
 import javafx.scene.Node;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import modele.CalendrierDuMois;
 import modele.ConstantesCalendrier;
 import modele.Date;
-import modele.DateCalendrier;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.Label;
 import javafx.geometry.Insets;
+import modele.DateCalendrier;
 
 import java.util.List;
 
-public class VBoxRoot extends VBox implements ConstantesCalendrier {
+public class VBoxCalendrier extends VBox implements ConstantesCalendrier {
 
 
-    public VBoxRoot() {
+    public VBoxCalendrier() {
 
 
         StackPane stackPaneMois = new StackPane();

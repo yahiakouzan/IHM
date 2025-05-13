@@ -8,7 +8,9 @@ import javafx.scene.Node;
 import javafx.scene.layout.GridPane;
 import javafx.scene.control.*;
 import modele.DateCalendrier;
-import static modele.ConstantesCalendrier;
+
+import static modele.ConstantesCalendrier.*;
+
 
 public class GridPaneFormulaireReservation extends GridPane {
     GridPaneFormulaireReservation(){

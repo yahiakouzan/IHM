@@ -27,13 +27,7 @@ public class Date implements Serializable, Comparable <Date>  {
         chJour = dateAuj.get (Calendar.DAY_OF_MONTH);
     }
 
-    /**
-     retourne true si this est une date valide
-     -  chAnnee > 1582
-     - 1 <= chMois <= 12
-     - 1 <= chJour et chJour <= dernierJourDuMois (chJour, chAnnee)
-     retourne false si
-     */
+
     public boolean estValide () {
         return chAnnee > 1582 &&
                 chMois >= 1 && chMois <= 12 &&

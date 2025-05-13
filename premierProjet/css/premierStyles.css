@@ -3,18 +3,18 @@
     -fx-background-color: cornsilk;
 }
 .label{
-    -fx-text-fill: #4682b4;
+    -fx-text-fill: #c9e3f8;
     -fx-font-size: 1.5em;
 }
 #today {
-    -fx-background-color: #FF5733;
+    -fx-background-color: #ffd5c8;
     -fx-text-fill: white;
     -fx-font-weight: bold;
     -fx-padding: 5px;
     -fx-border-radius: 5px;
 }
 #dateHorsMois {
-    -fx-background-color: #596b94;
+    -fx-background-color: #ffdbf9;
     -fx-text-fill: white;
     -fx-font-weight: bold;
     -fx-padding: 5px;
