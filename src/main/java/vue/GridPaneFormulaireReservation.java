@@ -7,16 +7,19 @@ import javafx.geometry.Insets;
 import javafx.scene.Node;
 import javafx.scene.layout.GridPane;
 import javafx.scene.control.*;
+import modele.Date;
 import modele.DateCalendrier;
 import static modele.ConstantesCalendrier.*;
 
 public class GridPaneFormulaireReservation extends GridPane {
+    private Label dateReservationLabel;
     GridPaneFormulaireReservation(){
         this.setHgap(10);
         this.setVgap(10);
 
         //Instanciation
-        Label dateReservationLabel =  new Label(new DateCalendrier().toString());
+        dateReservationLabel =  new Label(new DateCalendrier().toString());
+
         Separator separateur1 = new Separator();
         Separator separateur2 = new Separator();
         Label coursLabel = new Label("_"+"Cours :");
@@ -36,6 +39,7 @@ public class GridPaneFormulaireReservation extends GridPane {
             radioButton.setToggleGroup(niveauBoutons);
             radioButton.setPadding(new Insets(5));
         }
+
 
 
         Label horaireLabel = new Label("Horaire :");
@@ -123,6 +127,11 @@ public class GridPaneFormulaireReservation extends GridPane {
             }
         });
     }
+
+    public void setDateSelectionnee(Date date) {
+        this.dateReservationLabel.setText(date.toString()); // Mise à jour de l'affichage
+    }
+
 
     private ComboBox<String> peupleComboBox(String [] strings){
         ComboBox<String> comboBox = new ComboBox<>();

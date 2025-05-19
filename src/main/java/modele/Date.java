@@ -98,4 +98,5 @@ public class Date implements Comparable<Date>{
         return chAnnee;
     }
 
+    public int getMois() { return chMois; }
 }
